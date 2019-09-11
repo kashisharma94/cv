@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>My Contact Details</title>
+</head>
+
+<body>
+    <h2>Contact Details:</h2>
+    <table>
+        <thead>
+            <th>Contact Type</th>
+            <th>Contact Details</th>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Primary Email</td>
+                <td><a href="mailto:kashisharma94@gmail.com">kashisharma94@gmail.com</a></td>
+            </tr>
+            <tr>
+                <td>Secondary Email</td>
+                <td><a href="mailto:kashishsharma@outlook.com">kashishsharma@outlook.com</a></td>
+            </tr>
+            <tr>
+                <td>Phone Number</td>
+                <td><a href="tel:+919501025150">9501025150</a></td>
+            </tr>
+        </tbody>
+    </table>
+
+<h3>.....or allow me to Contact You</h3>
+<form action="mailto:kashisharma94@gmail.com" method="POST" enctype="text/plain">
+    <label for="name">Name:</label>
+    <input type="text" minlength="5" size="20"><br>
+    <label for="age">Age:</label>
+    <input type="number" id="age" max="150" min="18"><br>
+    <label for="dob">Date of Birth:</label>
+    <input type="date"><br>
+    <label for="gender">Gender: </label>
+    <input type="radio" name="gender" id="male">
+    <label for="male">Male</label>
+    <input type="radio" name="gender" id="female">
+    <label for="female">Female</label>
+    <input type="radio" name="gender" id="others">
+    <label for="others">Others</label><br>
+    <label for="email">Email:</label>
+    <input type="email" name="email"><br>
+    <input type="checkbox" name="promotion-content">
+    <label for="promotionContent">I would like to receive promotional Email</label><br>
+    <textarea name="message" id="message" cols="30" rows="10" placeholder="Enter your message here!"></textarea><br>
+    <input type="submit">
+</form>
+</body>
+
+</html>
