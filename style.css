@@ -5,14 +5,18 @@ body {
     background: linear-gradient(#61dae7 30%, #72deea 60%, #83e2ec 100%);
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     text-align: center;
-    margin-left: 10%;
-    margin-right: 10%;
+    margin-left: 20%;
+    margin-right: 20%;
     /* width: 50%; */
     
 }
 
 h1 {
     font-size: 4rem;
+    margin-top: 10px;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+    border-bottom: 0px;
 }
 hr {
     border-style: none;
@@ -29,7 +33,16 @@ h3 {
     margin-top: 1rem;
 }
 
-img {
+
+#profilePhoto {
+    height: 200px;
+    width: 200px;
     border-radius: 50%;
-    border: 2px solid #DADEE7;
+    padding-bottom: 3px;
 }
+
+.header{
+    margin: 2px;
+}
+
+p:nth
