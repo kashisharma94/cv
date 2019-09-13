@@ -1,0 +1,35 @@
+/* Saved Pallete https://colordesigner.io/#59D8E6-D9CB9E-374140-2A2C2B-BDC3C7 */
+
+body {
+    /* background-color: #d3f6f3; */
+    background: linear-gradient(#61dae7 30%, #72deea 60%, #83e2ec 100%);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    margin-left: 10%;
+    margin-right: 10%;
+    /* width: 50%; */
+    
+}
+
+h1 {
+    font-size: 4rem;
+}
+hr {
+    border-style: none;
+    width: 80%;
+    height: 5px;
+    background-image: linear-gradient(to right, rgba(124, 224, 235, 0), rgba(93, 217, 231, 0.8), rgba(124, 224, 235, 0));
+    /* background-image: url(https://upload.wikimedia.org/wikipedia/commons/thumb/9/92/The_Weeknd_performing_at_Djakarta_Warehouse_Project_in_December_2018_%28cropped%29.jpg/220px-The_Weeknd_performing_at_Djakarta_Warehouse_Project_in_December_2018_%28cropped%29.jpg) */
+    /* background-image: linear-gradient(to right, rgba(189, 239, 245,0) rgba(189, 239, 245, 0.8), rgba(189, 239, 245, 0)); */
+}
+
+h3 {
+    text-align: center;
+    font-size: 3.2rem;
+    margin-top: 1rem;
+}
+
+img {
+    border-radius: 50%;
+    border: 2px solid #DADEE7;
+}
