@@ -45,12 +45,15 @@ h2 {
     width: 200px;
     border-radius: 50%;
     padding-bottom: 3px;
+    filter: grayscale(20%);
+    /* filter: blur(1px); */
+    /* filter: opacity(50%); */
     
 }
 
 #profilePhoto:hover{
     box-shadow: 3px 3px 5px rgba(44, 88, 96, 0.8), -3px -3px 5px rgba(44, 88, 96, 0.8);
-
+    filter: none;
 }
 
 .header {
@@ -68,3 +71,38 @@ p:first-child {
     margin-bottom: px;
 }
 
+li {
+    list-style-position: inside;
+}
+
+.social-handle img{
+    height: 3rem;
+    width: 3rem;
+    margin: 10px 7px 20px 2px;
+
+}
+
+.social-handle img:hover {
+    height: 5rem;
+    width: 5rem;
+    margin-right: 5px;
+
+}
+
+
+/* Styles for Skills  */
+table[class="skills"] {
+    position: relative;
+    left: 40%;
+
+}
+
+td {
+    padding-right: 10px;
+    text-align: left;
+}
+
+.skills img {
+    height: 2rem;
+    width: 2rem;
+}

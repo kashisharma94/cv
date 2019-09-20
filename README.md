@@ -2,6 +2,12 @@
 Resume Hosting for Kashish Sharma
 
 
+
+# v0.1.4
+- Aligned bullet points close to the list
+- Added 'Contact Me' links with animations
+- Centered Skill Sets with cool logos for each skill
+
 # v0.1.3
 - Created separate directory for CSS files
 - Set separate font for H1
@@ -9,7 +15,6 @@ Resume Hosting for Kashish Sharma
 - Added sub-details to the 'Education' column
 - Heading values follow hierarchy now
 - Added Shadow to Profile Photo on Hover
-
 
 # v0.1.2
 - Removed Table from Header Entries
@@ -26,6 +31,6 @@ Resume Hosting for Kashish Sharma
 * Separate Headings from Data (Color, Style, etc.)
 * Change Font from Segoi
 * Find a better, more subtle color for the page
-* FIX the skills section which is all off centered to the left
 * Responsive design where Profile and Name appear side-by-side on big screens
 * Provide a PDF CV for download
+* Add a page/section for credits for icons, images etc.
