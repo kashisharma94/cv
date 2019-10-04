@@ -3,6 +3,10 @@ Resume Hosting for Kashish Sharma
 
 
 
+# v0.1.5
+- Added a basic Navbar
+- Added transitions to Social Buttons
+
 # v0.1.4
 - Aligned bullet points close to the list
 - Added 'Contact Me' links with animations
@@ -34,3 +38,4 @@ Resume Hosting for Kashish Sharma
 * Responsive design where Profile and Name appear side-by-side on big screens
 * Provide a PDF CV for download
 * Add a page/section for credits for icons, images etc.
+* Update Navbar with Flexbox
