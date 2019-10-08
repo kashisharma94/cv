@@ -3,6 +3,9 @@ Resume Hosting for Kashish Sharma
 
 
 
+# v0.1.6
+- Cleaner Navbar with nav and Flexbox
+
 # v0.1.5
 - Added a basic Navbar
 - Added transitions to Social Buttons
@@ -38,4 +41,4 @@ Resume Hosting for Kashish Sharma
 * Responsive design where Profile and Name appear side-by-side on big screens
 * Provide a PDF CV for download
 * Add a page/section for credits for icons, images etc.
-* Update Navbar with Flexbox
+* Make Navbar Stick
